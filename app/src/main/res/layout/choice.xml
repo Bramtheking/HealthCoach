@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/golden2">
+
+    <!-- Nutrition Card -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/nutritionCard"
+        android:layout_width="169dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="27dp"
+        android:onClick="onCardClicked"
+        app:cardBackgroundColor="#CCEB9210"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!-- Add your content here, for example a TextView -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="157dp">
+
+            <TextView
+                android:id="@+id/nutritionTextView"
+                android:layout_width="86dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="81dp"
+                android:layout_marginEnd="42dp"
+                android:text="Nutrition"
+                android:textColor="#0B0A0A"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/nutritionImageView"
+                android:layout_width="108dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="31dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/nutrition" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Workout Card -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/workoutCard"
+        android:layout_width="169dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="239dp"
+        android:onClick="onCardClicked"
+        app:cardBackgroundColor="#CCEB9210"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!-- Add your content here, for example a TextView -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="158dp"
+            android:layout_height="156dp">
+
+            <ImageView
+                android:id="@+id/workoutImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="66dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/workout" />
+
+            <TextView
+                android:id="@+id/workoutTextView"
+                android:layout_width="86dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="73dp"
+                android:layout_marginEnd="45dp"
+                android:text="Workout"
+                android:textColor="#0B0A0A"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Sleep Card -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/sleepCard"
+        android:layout_width="169dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="239dp"
+        android:onClick="onCardClicked"
+        app:cardBackgroundColor="#CCEB9210"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!-- Add your content here, for example a TextView -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="157dp"
+            android:layout_height="159dp">
+
+            <TextView
+                android:id="@+id/sleepTextView"
+                android:layout_width="86dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="79dp"
+                android:layout_marginEnd="36dp"
+                android:text="Sleep"
+                android:textColor="#0B0A0A"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/sleepImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="53dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="54dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/sleep" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Stress Card -->
+
+    <!-- Motivation Card -->
+
+    <!-- AI Insights Card -->
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/motivationCard"
+        android:layout_width="169dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="27dp"
+        android:onClick="onCardClicked"
+        app:cardBackgroundColor="#CCEB9210"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!-- Add your content here, for example a TextView -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="158dp">
+
+            <TextView
+                android:id="@+id/motivationTextView"
+                android:layout_width="126dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginEnd="22dp"
+                android:text="Motivation"
+                android:textColor="#0B0A0A"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="52dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/motivation" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/contactCard"
+        android:layout_width="377dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="433dp"
+        android:layout_marginEnd="18dp"
+        android:onClick="onCardClicked"
+        app:cardBackgroundColor="#CCEB9210"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!-- Add your content here, for example a TextView -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="372dp"
+            android:layout_height="130dp">
+
+            <TextView
+                android:id="@+id/aiInsightsTextView"
+                android:layout_width="140dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="72dp"
+                android:text="Contact Us"
+                android:textColor="#0B0A0A"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="124dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="84dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="43dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/contact" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

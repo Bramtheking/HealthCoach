@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="issues_array">
+        <item>Stress</item>
+        <item>Anxiety</item>
+        <item>Sleep</item>
+        <item>Mood</item>
+        <item>Depression</item>
+        <item>Fatigue</item>
+        <item>Motivation</item>
+        <item>Focus</item>
+        <item>Procrastination</item>
+        <item>Self-Esteem</item>
+        <item>Burnout</item>
+        <item>Anger</item>
+        <item>Loneliness</item>
+        <item>Grief</item>
+        <item>PTSD</item>
+        <item>Social Anxiety</item>
+        <item>Eating Disorders</item>
+        <item>Work-Life Balance</item>
+        <item>Relationship Issues</item>
+        <item>Substance Abuse</item>
+    </string-array>
+
+    <string-array name="quotes_array">
+        <item>Start your week with a positive attitude. Happy Monday!</item>
+        <item>Keep pushing forward. Happy Tuesday!</item>
+        <item>Halfway through the week! Happy Wednesday!</item>
+        <item>Almost there! Happy Thursday!</item>
+        <item>Finish strong. Happy Friday!</item>
+        <item>Enjoy your weekend! Happy Saturday!</item>
+        <item>Take time to relax and recharge. Happy Sunday!</item>
+        <item>Your limitation—it\'s only your imagination.</item>
+        <item>Push yourself, because no one else is going to do it for you.</item>
+        <item>Sometimes later becomes never. Do it now.</item>
+        <item>Great things never come from comfort zones.</item>
+        <item>Dream it. Wish it. Do it.</item>
+        <item>Success doesn’t just find you. You have to go out and get it.</item>
+        <item>The harder you work for something, the greater you’ll feel when you achieve it.</item>
+        <item>Dream bigger. Do bigger.</item>
+        <item>Don’t stop when you’re tired. Stop when you’re done.</item>
+        <item>Wake up with determination. Go to bed with satisfaction.</item>
+        <item>Do something today that your future self will thank you for.</item>
+        <item>Little things make big days.</item>
+        <item>It’s going to be hard, but hard does not mean impossible.</item>
+        <item>Don’t wait for opportunity. Create it.</item>
+    </string-array>
+
+    <string-array name="suggestions_array">
+        <item>Try deep breathing exercises and take regular breaks.</item>
+        <item>Practice mindfulness and avoid caffeine.</item>
+        <item>Maintain a regular sleep schedule and avoid screens before bedtime.</item>
+        <item>Engage in activities that boost your mood, like exercise or hobbies.</item>
+        <item>Consider talking to a therapist and exercise regularly.</item>
+        <item>Ensure you get enough sleep and eat a balanced diet.</item>
+        <item>Set small, achievable goals to boost your motivation.</item>
+        <item>Break tasks into smaller steps and minimize distractions.</item>
+        <item>Break tasks into smaller steps and set specific deadlines.</item>
+        <item>Practice self-compassion and avoid negative self-talk.</item>
+        <item>Take time to relax and do things you enjoy outside of work.</item>
+        <item>Find healthy outlets for anger, such as exercise or journaling.</item>
+        <item>Reach out to friends or family and engage in social activities.</item>
+        <item>Allow yourself to grieve and seek support from loved ones.</item>
+        <item>Seek professional help and practice relaxation techniques.</item>
+        <item>Gradually expose yourself to social situations and practice deep breathing.</item>
+        <item>Seek professional help and follow a healthy eating plan.</item>
+        <item>Set boundaries and prioritize your time effectively.</item>
+        <item>Communicate openly and honestly with your partner.</item>
+        <item>Seek professional help and support groups.</item>
+    </string-array>
+</resources>
